@@ -7,8 +7,9 @@ valores.forEach((valor) => {
     valorTotal+=valor;
 });
 
-console.log
+
 console.log('Percentual de representação mensal por estado:');
+
 valores.forEach((valor, index) =>{
     let percentual = ((valor / valorTotal) * 100).toFixed(2);
     console.log(`${estados[index]} foi de ${percentual}%.`);
