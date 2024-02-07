@@ -43,8 +43,8 @@ const exibirResultados = async () =>{
     await tratarFaturamento();
 
 
-    console.log(`O menor valor de faturamento em um dia no mês foi: ${menorValor}`);
-    console.log(`O maior valor de faturamento em um dia no mês foi: ${maiorValor}`);
+    console.log(`O menor valor de faturamento em um dia no mês foi: ${menorValor.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`);
+    console.log(`O maior valor de faturamento em um dia no mês foi: ${maiorValor.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`);
     console.log(`Quantidade de dias que o faturamento superou média mensal: ${diasAcimaMedia}`);
 
 }
