@@ -1,5 +1,5 @@
 /* 
-Tendo um valor informado na variável 'numero' será feito o cálculo da sequência Fibonacci até 1000 valores. Caso o número informado seja encontrado nesta sequência, será exibida a mensagem de que o número pertence a ela e o loop interrompido. Se ele não encontrar, o loop continuará até atingir os 1000 valores. E ao final será exibida a mensagem de que o número não pertence a sequência.
+Tendo um valor definido na variável 'numero' será feito o cálculo da sequência Fibonacci até 1000 valores. Caso o número seja encontrado nesta sequência, será exibida a mensagem de que o número pertence a ela e o loop interrompido. Se ele não encontrar, o loop continuará até atingir os 1000 valores. E ao final será exibida a mensagem de que o número não pertence a sequência.
 */
 
 let numero = 1548008755920; //Número a ser testado
